@@ -1,6 +1,5 @@
 <?= $this->extend('layout/templatePengguna'); ?>
 <?= $this->section('content'); ?>
-<?php if(in_groups('Administrator')) :?>
 <body class="bg-gradient-primary">
 
     <div class="container">
@@ -57,12 +56,4 @@
         </div>
 
     </div>
-    <?php 
-        else :
-            $data = [
-                'title' => 'CAT| Registrasi'
-            ];
-            echo view('pages/auth/pageNotFound',$data);
-            
-        endif;   ?>
     <?= $this->endSection(); ?>
