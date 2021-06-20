@@ -2,7 +2,7 @@
 
 use App\Controllers\Admin\user;
 use App\Models\configModel;
-use App\Models\JenisTestModel;
+use App\Models\jenisTestModel;
 use App\Models\bidangTestModel;
 use App\Models\subBidangTestModel;
 use App\Models\unitKerjaModel;
@@ -15,7 +15,7 @@ class Config extends BaseController
     public function __construct()
     {
         $this->dataConfig = new configModel();
-        $this->dataJenisTest = new JenisTestModel();
+        $this->dataJenisTest = new jenisTestModel();
         $this->dataBidangTest = new bidangTestModel();
         $this->dataSubBidangTest = new subBidangTestModel();
         $this->dataUnitKerja = new unitKerjaModel();

@@ -3,7 +3,7 @@
 use CodeIgniter\Database\MySQLi\Builder;
 use CodeIgniter\Model;
 
-class JenisTestModel extends Model
+class jenisTestModel extends Model
 {
     protected $table    =   'jenis_test';
     protected $primarykey = 'id';

@@ -2,7 +2,7 @@
 
 use App\Controllers\Admin\user;
 use App\Models\soalModel;
-use App\Models\JenisTestModel;
+use App\Models\jenisTestModel;
 use App\Models\bidangTestModel;
 use App\Models\subBidangTestModel;
 use App\Models\unitKerjaModel;
@@ -20,7 +20,7 @@ class Soal extends BaseController
     public function __construct()
     {
         $this->dataSoal = new soalModel();
-        $this->dataJenisTest = new JenisTestModel();
+        $this->dataJenisTest = new jenisTestModel();
         $this->dataBidangTest = new bidangTestModel();
         $this->dataSubBidangTest = new subBidangTestModel();
         $this->dataUnitKerja = new unitKerjaModel();

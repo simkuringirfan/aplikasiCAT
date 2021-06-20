@@ -4,7 +4,7 @@ use App\Controllers\Admin\user;
 use App\Models\subBidangTestModel;
 use App\Models\bidangTestModel;
 use App\Models\registrasiUjianModel;
-use App\Models\JenisTestModel;
+use App\Models\jenisTestModel;
 use App\Models\unitKerjaModel;
 use App\Models\configModel;
 use CodeIgniter\HTTP\Request;
@@ -23,7 +23,7 @@ class RegistrasiUjian extends BaseController
         $this->datasubBidangTest = new subBidangTestModel();
         $this->dataBidangTest = new bidangTestModel();
         $this->dataRegistrasiUjian = new registrasiUjianModel();
-        $this->dataJenisTest = new JenisTestModel();
+        $this->dataJenisTest = new jenisTestModel();
         $this->dataUnitKerja = new unitKerjaModel();
         $this->dataConfig = new configModel();
  
