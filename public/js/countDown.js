@@ -28,7 +28,7 @@ var x = setInterval(function() {
   if (distance < 0) {
     clearInterval(x);
 
-    window.location = 'http://localhost:8080/Ujian/selesaiUjianExpired/'+document.getElementById("noRegUjian").value+';'+document.getElementById("selesai_ujian").value+';'+document.getElementById("sum_point_soal").value+';'+document.getElementById("id_ujian").value+';'+document.getElementById("soalDijawab").value+';'+document.getElementById("sisaSoal").value;
+    window.location = '<?= base_url(); ?>/Ujian/selesaiUjianExpired/'+document.getElementById("noRegUjian").value+';'+document.getElementById("selesai_ujian").value+';'+document.getElementById("sum_point_soal").value+';'+document.getElementById("id_ujian").value+';'+document.getElementById("soalDijawab").value+';'+document.getElementById("sisaSoal").value;
 
     document.getElementById("waktuUjian").innerHTML = "EXPIRED";
     

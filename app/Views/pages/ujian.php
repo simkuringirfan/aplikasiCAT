@@ -15,7 +15,7 @@ else {
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/datepicker.css">
@@ -25,6 +25,8 @@ else {
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
+    <meta content="Responsive admin theme build on top of Bootstrap 4" name="description" />
+        <meta content="Themesdesign" name="author" />
     <link rel="shortcut icon" href="<?= base_url(); ?>/assets/images/favicon.ico">
 
     <!-- Custom fonts for this template-->
@@ -33,7 +35,10 @@ else {
         rel="stylesheet">
 
       <!-- Custom fonts for this template-->
-      <link href="<?= base_url(); ?>/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+      <link href="<?= base_url(); ?>/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+        <link href="<?= base_url(); ?>/assets/css/metismenu.min.css" rel="stylesheet" type="text/css">
+        <link href="<?= base_url(); ?>/assets/css/icons.css" rel="stylesheet" type="text/css">
+        <link href="<?= base_url(); ?>/assets/css/style.css" rel="stylesheet" type="text/css">
 
     <!-- Custom styles for this template-->
     <link href="<?= base_url(); ?>/css/sb-admin-2.min.css" rel="stylesheet">
@@ -310,14 +315,6 @@ else {
             <input type="text" id="sum_point_soal" name="sum_point_soal" value="<?= $sumPointSoal; ?>" hidden>
             <input type="text" id="selesai_ujian" name="selesai_ujian" value="<?= $telah_berlalu; ?>" hidden>
 
-            <!-- <li class="nav-item">
-                <a class="nav-link collapsed" href="/Ujian/selesaiUjian/<?= $dataUjianBy['no_reg_ujian']; ?>" data-toggle="collapse" data-target="#collapseUtilities"
-                    aria-expanded="true" aria-controls="collapseUtilities">
-                    <i class="fas fa-fw fa-wrench"></i>
-                    <span>Selesai Ujian</span>
-                </a>
-                
-            </li> -->
             <li class="nav">
             <a class="nav-link collapsed">
                 <button type="button" name="btnbtn" id="btnbtn" class="btn btn-danger waves-effect waves-light" data-toggle="modal" data-target="#myModal"><i class="fas fa-stop-circle lg" style="color:white"> Selesai Ujian</i></button>
