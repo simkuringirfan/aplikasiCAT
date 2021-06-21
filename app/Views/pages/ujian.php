@@ -317,9 +317,9 @@ else {
 
             <li class="nav">
             <a class="nav-link collapsed">
-                <button type="button" name="btnbtn" id="btnbtn" class="btn btn-danger waves-effect waves-light" data-toggle="modal" data-target="#myModal"><i class="fas fa-stop-circle lg" style="color:white"> Selesai Ujian</i></button>
+                <button type="button" name="btnbtn" id="btnbtn" class="btn btn-danger waves-effect waves-light" data-toggle="modal" data-target="#free"><i class="fas fa-stop-circle lg" style="color:white"> Selesai Ujian</i></button>
                                         
-                                        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="free123" aria-hidden="true" style="color:black" >
+                                        <div class="modal fade" id="free" tabindex="-1" role="dialog" aria-labelledby="free123" aria-hidden="true" >
         <div class="modal-dialog" role="document">
           <div class="modal-content">
             <div class="modal-header">
